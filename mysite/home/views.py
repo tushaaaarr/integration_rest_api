@@ -289,7 +289,7 @@ class ChangePasswordView(generics.UpdateAPIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-def Newfunction(request):
+def Newfunction_0_2(request):
     return render(request,'home.html')
 
 
