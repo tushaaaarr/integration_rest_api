@@ -289,10 +289,13 @@ class ChangePasswordView(generics.UpdateAPIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-# def Newfunction_0_2(request):
-#     return render(request,'home.html')
+def Newfunction_0_2(request):
+    return render(request,'home.html')
 
 
+def checkoutfunct():
+    return None
+    
 @api_view(['GET'])
 def view_items(request):
     if request.query_params:
